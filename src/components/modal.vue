@@ -16,6 +16,7 @@ console.log(content);
 let num = ref(8);
 
 // a
+let test = ref(1);
 </script>
 <style scoped>
 .modal {
