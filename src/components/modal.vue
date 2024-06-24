@@ -2,7 +2,7 @@
     <div class="modal">
         <h2>{{ content }}</h2>
         <h2>当前求和为{{ num }}</h2>
-        <h2>特殊儿童</h2>
+        <h2>特殊儿童{{ name }}</h2>
     </div>
 </template>
 <script setup name="Modal">
@@ -16,6 +16,7 @@ console.log(content);
 let num = ref(8);
 
 // a
+let name = ref("李白");
 </script>
 <style scoped>
 .modal {
