@@ -1,6 +1,7 @@
 <template>
     <div class="modal">
         <h2>当前求和为{{ num }}</h2>
+        <h2>特殊儿童</h2>
     </div>
 </template>
 <script setup name="Modal">
